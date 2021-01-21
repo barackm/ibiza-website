@@ -805,12 +805,16 @@ input[type="checkbox"] {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("../images/bg.jpg") center center no-repeat;
   background-size: cover;
+  height: 800px !important;
+  /* padding-top: 100px; */
+  /* color: #fff !important; */
 }
 
 .header .header-content {
   padding-top: 8rem;
   padding-bottom: 2.125rem;
   text-align: center;
+  /* height: 800px !important; */
 }
 
 .header .text-container {
@@ -1940,10 +1944,12 @@ a:hover.back-to-top {
 
   /* Header */
   .header .header-content {
-    padding-top: 13rem;
+    padding-top: 3rem;
     padding-bottom: 7.5rem;
   }
-
+  .header .header-content {
+    padding-top: 15rem !important;
+  }
   .header h1 {
     font: 700 3.5rem/4rem "Montserrat", sans-serif;
   }
@@ -2025,7 +2031,9 @@ a:hover.back-to-top {
     padding-top: 11rem;
     padding-bottom: 9rem;
   }
-
+  .header {
+    /* height: 600px !important; */
+  }
   .ex-basic-2 .form-container {
     margin-top: 0.5rem;
   }
@@ -2040,7 +2048,7 @@ a:hover.back-to-top {
     width: 65%;
   }
   /* end of general styles */
-
+  Ohead
   /* Navigation */
   .navbar-custom .social-icons {
     display: block;
@@ -2082,6 +2090,7 @@ a:hover.back-to-top {
   .header .header-content {
     padding-top: 14rem;
     padding-bottom: 15rem;
+    /* height: 600px !important; */
   }
 
   .header .text-container {
@@ -2461,3 +2470,15 @@ a:hover.back-to-top {
   /* end of navigation */
 }
 /* end of min-width width 1200px */
+
+@media (max-width: 768px) {
+  .header-content {
+    padding-top: 250px !important;
+  }
+  .hiro-main h3 {
+    color: #fff;
+  }
+  .motivation-details p {
+    color: #fff;
+  }
+}
